@@ -1,0 +1,72 @@
+@model IEnumerable<Gamf4.Models.Enrollment>
+
+@{
+    ViewData["Title"] = "Jelentkezések";
+}
+
+<h1>Jelentkezések</h1>
+
+<p>
+    <a asp-action="Create">Új jelentkezés</a>
+</p>
+
+<div class="col-md-4">
+    <fieldset class="scheduler-border">
+        <legend class="scheduler-border">Keresés</legend>
+        <form asp-action="Index">
+            <div class="form-group">
+                <input name="SearchString" class="form-control" placeholder="Név vagy tantárgy részlet" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Keresés" class="btn btn-default" />
+            </div>
+        </form>
+    </fieldset>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <a asp-controller="Enrollments"
+                   asp-action="Index"
+                   asp-route-sortOrder="@ViewBag.CourseSortParam">
+                    @Html.DisplayNameFor(model => model.Course.Title)
+                </a>
+
+            </th>
+            <th>
+                <a asp-controller="Enrollments"
+                   asp-action="Index"
+                   asp-route-sortOrder="@ViewBag.NameSortParam">
+                    @Html.DisplayNameFor(model => model.Student.LastName)
+                </a>
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Grade)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Course.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Student.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Grade)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.EnrollmentId">Szerkesztés</a> |
+                    <a asp-action="Details" asp-route-id="@item.EnrollmentId">Részletek</a> |
+                    <a asp-action="Delete" asp-route-id="@item.EnrollmentId">Törlés</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

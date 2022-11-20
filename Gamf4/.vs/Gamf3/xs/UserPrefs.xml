@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{ECBF7545-D886-4E3E-80D4-7B52E8849FA7}|Default">
+  <MonoDevelop.Ide.ItemProperties.Gamf4 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Gamf4/Controllers/ReportController.cs">
+    <Files>
+      <File FileName="Gamf4/Views/EnrollmentDateReport.cshtml" Line="22" Column="10" />
+      <File FileName="Gamf4/Controllers/CoursesController.cs" Line="1" Column="1" />
+      <File FileName="Gamf4/Views/Shared/_Layout.cshtml" Line="36" Column="121" />
+      <File FileName="Gamf4/Views/Students/Create.cshtml" Line="43" Column="1" />
+      <File FileName="Gamf4/Controllers/HomeController.cs" Line="10" Column="45" />
+      <File FileName="Gamf4/Controllers/ReportController.cs" Line="20" Column="30" />
+      <File FileName="Gamf4/Views/Report/StudentsReport.cshtml" Line="24" Column="21" />
+      <File FileName="Gamf4/Models/Enrollment.cs" Line="14" Column="42" />
+      <File FileName="Gamf4/Views/Students/Edit.cshtml" Line="1" Column="1" />
+      <File FileName="Gamf4/Views/Students/Index.cshtml" Line="1" Column="1" />
+      <File FileName="Gamf4/Models/Student.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Gamf4" expanded="True">
+            <Node name="Gamf4" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Report" expanded="True" />
+                <Node name="Shared" expanded="True" />
+                <Node name="Students" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

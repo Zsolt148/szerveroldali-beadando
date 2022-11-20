@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{ECBF7545-D886-4E3E-80D4-7B52E8849FA7}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Gamf4 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Gamf4/Views/Enrollments/Index.cshtml">
+    <Files>
+      <File FileName="Gamf4/Views/Shared/_Layout.cshtml" Line="49" Column="14" IsPinned="True" />
+      <File FileName="Gamf4/Controllers/EnrollmentController.cs" Line="15" Column="49" />
+      <File FileName="Gamf4/Views/Enrollment/Index.cshtml" Line="21" Column="42" />
+      <File FileName="Gamf4/Models/Enrollment.cs" Line="14" Column="42" />
+      <File FileName="Gamf4/wwwroot/css/site.css" Line="21" Column="36" />
+      <File FileName="Gamf4/Models/EnrollmentListVM.cs" Line="14" Column="1" />
+      <File FileName="Gamf4/Views/Enrollment/Index2.html" Line="24" Column="37" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Gamf4" expanded="True">
+            <Node name="Gamf4" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True" selected="True">
+                <Node name="Enrollments" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
