@@ -1,9 +1,17 @@
 ﻿<Properties StartupConfiguration="{FD8B2F7B-8D09-4EC1-B20E-89B0DB6472E5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Gamf1/Models/Course.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Gamf1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Gamf1/Program.cs">
     <Files>
       <File FileName="Gamf1/Models/Student.cs" />
       <File FileName="Gamf1/Models/Enrollment.cs" />
       <File FileName="Gamf1/Models/Course.cs" Line="6" Column="21" />
+      <File FileName="Gamf1/appsettings.json" Line="8" Column="32" />
+      <File FileName="Gamf1/Program.cs" Line="9" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,11 +27,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Gamf1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

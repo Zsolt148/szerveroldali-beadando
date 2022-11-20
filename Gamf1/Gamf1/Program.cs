@@ -7,7 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-//builder.Services.AddDbContext<GAMFDbContext>(options => options.UseNpgsql(Configuration["ConnectionStrings:GAMFDbConnection"]));
+ConfigurationManager Configuration = builder.Configuration;
+builder.Services.AddDbContext<GAMFDbContext>(options => options.UseNpgsql(Configuration["ConnectionStrings:GAMFDbConnection"]));
 
 var app = builder.Build();
 
